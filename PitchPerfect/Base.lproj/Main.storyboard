@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="width" constant="64" id="pln-4g-suu"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="Stop"/>
+                                <state key="normal" image="Stop "/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYZ-DL-cHn"/>
                                 </connections>
@@ -120,7 +120,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hIR-Qo-ibw">
-                                        <rect key="frame" x="0.0" y="120.66666666666663" width="820" height="60.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="120.66666666666664" width="820" height="60.333333333333329"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABs-yk-LBV" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="410" height="60.333333333333336"/>
@@ -149,7 +149,7 @@
                                     <constraint firstAttribute="width" constant="63" id="lep-rl-JEq"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="Stop"/>
+                                <state key="normal" image="Stop "/>
                                 <connections>
                                     <action selector="stopButtonPressed:" destination="x7Y-Gk-eM9" eventType="touchUpInside" id="gA4-SS-gGh"/>
                                 </connections>
@@ -208,7 +208,7 @@
         <image name="Record" width="155" height="155"/>
         <image name="Reverb" width="90" height="90"/>
         <image name="Slow" width="90" height="90"/>
-        <image name="Stop" width="155" height="155"/>
+        <image name="Stop " width="155" height="155"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
